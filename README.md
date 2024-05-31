@@ -16,7 +16,7 @@ Among us mod that fixes some game breaking bugs when tryharding among us. As wel
 
 This mod has been made using [Reactor modding framework](https://github.com/NuclearPowered/Reactor), based on BepInEx, it patches the game at runtime and **DOES NOT** modify any game files.
 
--   Support Among us v2020.12.9s (Steam only)
+-   Support Among us v 2024.3.5s (Steam only)
 
 ### Installation
 
@@ -37,7 +37,7 @@ If you want to play on official servers, you should then disable custom handshak
 
 If you want to uninstall this mod only, remove the dll `Among us/BepInEx/plugins/AmongUsUnknownImpostors-2020.12.9s.dll`.
 
-If you want to disable it, you can temporarily rename or remove the file `Among us/winhttp.dll`
+If you want to disable it, you can temporarily rename or remove the file `Among us/winhttp.dll` ou désintalle le jeu pour le reinstaller dans le mod.
 
 If you want to completely uninstall Reactor/BepInEx, remove the following files and folders
 
