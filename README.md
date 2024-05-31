@@ -77,4 +77,4 @@ Third-party libraries:
 
 # Contact
 
-### Discord: Herysia#4293
+antho_off
