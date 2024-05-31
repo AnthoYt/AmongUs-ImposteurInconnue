@@ -1,4 +1,5 @@
 # AmongUsUnknownImpostors
+CE MOD SERA BIENTOT A JOUR PART MOI !
 
 Among us mod that fixes some game breaking bugs when tryharding among us. As well as some useful settings
 
