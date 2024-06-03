@@ -77,5 +77,8 @@ Third-party libraries:
     Their usage is subject to [Unity Terms of Service](https://unity3d.com/legal/terms-of-service), including [Unity Software Additional Terms](https://unity3d.com/legal/terms-of-service/software).
 
 # Contact
-
+Discord :
 antho_off
+
+Youtube :
+Antho_Off
