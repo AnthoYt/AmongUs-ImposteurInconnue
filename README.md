@@ -4,23 +4,22 @@ Ce mod seradisponnible fin d'année 2024 et sera joué en LIVE avec les Royales 
 
 Among us mod that fixes some game breaking bugs when tryharding among us. As well as some useful settings
 
-## Features
+## Caractères
 
--   Impostors don't know each other
--   Impostors can kill each other
--   Impostors are impacted by lights sabotage (it can be individually customized in the lobby settings)
--   The module can be disabled from a lobby command, and will be automatically disabled if the host doesn't have the mod installed
--   Allow you to change map and impostor count from the game lobby (Thx [@Galster](https://github.com/Galster-dev))
+-  Les imposteurs ne se connaissent pas
+-  Les imposteurs peuvent s'entre-tuer
+-  Les imposteurs sont touchés par le sabotage des lumières (cela peut être personnalisé individuellement dans les paramètres du lobby)
+-  Le module peut être désactivé à partir d'une commande du lobby et sera automatiquement désactivé si l'hôte n'a pas installé le mod.
+- Vous permet de modifier la carte et le nombre d'imposteurs depuis le lobby du jeu (Merci [@Galster](https://github.com/Galster-dev))
 
-## Technical stuff
+## Technique
 
-This mod has been made using [Reactor modding framework](https://github.com/NuclearPowered/Reactor), based on BepInEx, it patches the game at runtime and **DOES NOT** modify any game files.
-
+Ce mod a été réalisé à l'aide du [framework de modding Reactor](https://github.com/NuclearPowered/Reactor), basé sur BepInEx, il corrige le jeu au moment de l'exécution et **NE** modifie aucun fichier de jeu.
 -   Support Among us v 2024.3.5s (Steam only)
 
 ### Installation
 
-All players should have the mod install for the best user experience
+Tous les joueurs doivent avoir installé le mod pour la meilleure expérience utilisateur
 
 -   Download the [lastest release](https://github.com/Herysia/AmongUsUnknownImpostors/releases/latest).
 -   Extract the files into Among us game folder (`steam/steamapps/common/Among us`)
@@ -49,9 +48,9 @@ If you want to completely uninstall Reactor/BepInEx, remove the following files 
 +-- winhttp.dll
 ```
 
-# Contributing
+# Contribution
 
-You have encountered a bug or unexpected behaviour ? You want to suggest or add a new feature ? Create an [Issue](https://github.com/Herysia/AmongUsUnknownImpostors/issues) or [PR](https://github.com/Herysia/AmongUsUnknownImpostors/pulls) !
+Vous avez rencontré un bug ou un comportement inattendu ? Vous souhaitez proposer ou ajouter une nouvelle fonctionnalité ? Créez un [Problème](https://github.com/Herysia/AmongUsUnknownImpostors/issues) ou un [PR](https://github.com/Herysia/AmongUsUnknownImpostors/pulls) !
 
 ### Dependency
 
