@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Linq;
 using Hazel;
 using LobbyOptionsAPI;
+using System.Text;
 
 namespace AmongUsUnknownImpostors.Patches
 {
@@ -38,12 +39,14 @@ namespace AmongUsUnknownImpostors.Patches
             try
             {
                 SetRecommendations();
-                byte b = reader.ReadByte();
+                byte _ = reader.ReadByte(); // Unused byte (kept for deserialization structure)
                 unkImpostor.value = reader.ReadBoolean();
                 impoVision.value = reader.ReadSingle();
             }
-            catch
+            catch (Exception ex)
             {
+                // Optionally log the error for better debugging
+                Console.WriteLine($"Error during deserialization: {ex.Message}");
             }
         }
 
@@ -52,33 +55,34 @@ namespace AmongUsUnknownImpostors.Patches
             try
             {
                 SetRecommendations();
-                byte b = reader.ReadByte();
+                byte _ = reader.ReadByte(); // Unused byte (kept for deserialization structure)
                 unkImpostor.value = reader.ReadBoolean();
                 impoVision.value = reader.ReadSingle();
             }
-            catch
+            catch (Exception ex)
             {
+                // Optionally log the error for better debugging
+                Console.WriteLine($"Error during deserialization: {ex.Message}");
             }
         }
 
         public override string ToHudString()
         {
-            settings.Length = 0;
-
+            var settings = new StringBuilder();
             try
             {
                 settings.AppendLine();
                 settings.AppendLine($"Unk impostor: {unkImpostor.value}");
+
                 if (unkImpostor.value)
                 {
-                    settings.Append("Impostor light off vision: ");
-                    settings.Append(impoVision.value);
-                    settings.Append("x");
-                    settings.AppendLine();
+                    settings.AppendLine($"Impostor light off vision: {impoVision.value}x");
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                // Optionally log the error for better debugging
+                Console.WriteLine($"Error generating HUD string: {ex.Message}");
             }
 
             return settings.ToString();
