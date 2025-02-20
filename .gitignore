@@ -213,6 +213,10 @@ csx/
 ecf/
 rcf/
 
+# Add custom items if needed for your project or environment
+# Example: Ignore custom log files
+*.log
+
 # Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
