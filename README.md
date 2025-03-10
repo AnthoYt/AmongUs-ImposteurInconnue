@@ -10,7 +10,7 @@ Among us mod that fixes some game breaking bugs when tryharding among us. As wel
 -  Les imposteurs peuvent s'entre-tuer
 -  Les imposteurs sont touchés par le sabotage des lumières (cela peut être personnalisé individuellement dans les paramètres du lobby)
 -  Le module peut être désactivé à partir d'une commande du lobby et sera automatiquement désactivé si l'hôte n'a pas installé le mod.
-- Vous permet de modifier la carte et le nombre d'imposteurs depuis le lobby du jeu (Merci [@Galster](https://github.com/Galster-dev))
+- Vous permet de modifier la carte et le nombre d'imposteurs depuis le lobby du jeu.
 
 ## Technique
 
@@ -21,7 +21,7 @@ Ce mod a été réalisé à l'aide du [framework de modding Reactor](https://git
 
 Tous les joueurs doivent avoir installé le mod pour la meilleure expérience utilisateur
 
--   Download the [lastest release](https://github.com/Herysia/AmongUsUnknownImpostors/releases/latest).
+-   Download the [lastest release]().
 -   Extract the files into Among us game folder (`steam/steamapps/common/Among us`)
 -   This should look like this
     ![looklikethis](./Visuals/looklikethis.png)
