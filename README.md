@@ -27,18 +27,19 @@ Tous les joueurs doivent avoir installé le mod pour la meilleure expérience ut
     ![looklikethis](./Visuals/looklikethis.png)
 -   **Run the game from steam**
 
-### Installation side note
+### Remarque relative à l'installation
 
-If you want to install Reactor by yourself, please follow the [BepInEx](https://docs.reactor.gg/docs/basic/install_bepinex) installation instruction, then [Reactor](https://docs.reactor.gg/docs/basic/install_reactor)'s ones. And then copy the plugin dll (from [releases](https://github.com/Herysia/AmongUsTryhard/releases/latest)) into `Among us/BepInEx/plugins`
-If you want to play on official servers, you should then disable custom handshake option from: `Among us/BepInEx/config/gg.reactor.api.cfg`
+Si vous souhaitez installer Reactor par vous-même, veuillez suivre les [BepInEx](https://docs.reactor.gg/docs/basic/install_bepinex) instructions d'installation, puis
+ [Reactor](https://docs.reactor.gg/docs/basic/install_reactor). Et puis copiez la dll du plugin (de [releases](https://github.com/AnthoYt/AmongUsUnknownImpostors/releases)) dans `Among us/BepInEx/plugins`
+Si vous souhaitez jouer sur des serveurs officiels, vous devez alors désactiver l'option de handshake personnalisé à partir de : `Among us/BepInEx/config/gg.reactor.api.cfg`
 
-### Uninstall
+### Désinstaller
 
-If you want to uninstall this mod only, remove the dll `Among us/BepInEx/plugins/AmongUsUnknownImpostors-2020.12.9s.dll`.
+Si vous souhaitez désinstaller uniquement ce mod, supprimez la dll `Among us/BepInEx/plugins/AmongUsUnknownImpostors-2020.12.9s.dll`.
 
-If you want to disable it, you can temporarily rename or remove the file `Among us/winhttp.dll` ou désintalle le jeu pour le reinstaller dans le mod.
+Si vous souhaitez le désactiver, vous pouvez renommer ou supprimer temporairement le fichier `Among us/winhttp.dll` ou désinstaller le jeu pour le réinstaller dans le mod.
 
-If you want to completely uninstall Reactor/BepInEx, remove the following files and folders
+Si vous souhaitez désinstaller complètement Reactor/BepInEx, supprimez les fichiers et dossiers suivants
 
 ```
 +-- BepInEx
@@ -50,30 +51,21 @@ If you want to completely uninstall Reactor/BepInEx, remove the following files 
 
 # Contribution
 
-Vous avez rencontré un bug ou un comportement inattendu ? Vous souhaitez proposer ou ajouter une nouvelle fonctionnalité ? Créez un [Problème](https://github.com/Herysia/AmongUsUnknownImpostors/issues) ou un [PR](https://github.com/Herysia/AmongUsUnknownImpostors/pulls) !
+Vous avez rencontré un bug ou un comportement inattendu ? Vous souhaitez proposer ou ajouter une nouvelle fonctionnalité ? Créez un [Problème](https://github.com/AnthoYt/Royale-Us/issues) !
 
-### Dependency
+# Licences et crédits
 
-This mod depends on [another module](https://github.com/Herysia/CustomLobbyOptions) which simplify lobby options (add to menu, sync settings and save settings individually with customisable display)
+AmongUsUnknownImpostors est sous licence MIT. Voir [LICENSE](LICENSE.md) pour la licence complète.
 
-### Creating PR
+Crédits à [@Galster](https://github.com/Galster-dev) et  pour les paramètres de lobby personnalisés
+Créadits à [@Herysia](https://github.com/Herysia) pour avoir mis en oevre le premier projet
 
--   [Fork this on github](https://github.com/Herysia/AmongUsUnknownImpostors/fork)
--   Clone your repo, commit and push your changes
--   Request a new Pull request
+Bibliothèques tierces :
 
-# Licensing & Credits
-
-AmongUsUnknownImpostors is licensed under the MIT License. See [LICENSE](LICENSE.md) for the full License.
-
-Credits to [@Galster](https://github.com/Galster-dev) for custom lobby settings
-
-Third-party libraries:
-
--   [Reactor](https://github.com/NuclearPowered/Reactor) is license under the LGPL v3.0 License. See [LICENSE](https://github.com/NuclearPowered/Reactor/blob/master/LICENSE) for the full License.
--   [BepInEx (Reactor fork)](https://github.com/NuclearPowered/BepInEx) is licensed under the LGPL 2.1 License. See [LICENSE](https://github.com/NuclearPowered/BepInEx/blob/master/LICENSE) for the full License.
--   Unity Runtime libraries are part of Unity Software.  
-    Their usage is subject to [Unity Terms of Service](https://unity3d.com/legal/terms-of-service), including [Unity Software Additional Terms](https://unity3d.com/legal/terms-of-service/software).
+-   [Reactor](https://github.com/NuclearPowered/Reactor) est sous licence LGPL v3.0. Voir [LICENSE](https://github.com/NuclearPowered/Reactor/blob/master/LICENSE) pour la licence complète.
+-   [BepInEx (Reactor fork)](https://github.com/NuclearPowered/BepInEx)est sous licence LGPL 2.1. Voir [LICENSE](https://github.com/NuclearPowered/BepInEx/blob/master/LICENSE) pour la licence complète.
+-   Unity Runtime les bibliothèques font partie du logiciel Unity.  
+    Leur utilisation est soumise à [Unity Terms of Service](https://unity3d.com/legal/terms-of-service),y compris [Unity Software Additional Terms](https://unity3d.com/legal/terms-of-service/software).
 
 # Contact
 Discord :
