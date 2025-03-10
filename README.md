@@ -66,7 +66,7 @@ Bibliothèques tierces :
 
 # Contact
 Discord :
-antho_off
+antho_off [Serveur](https://discord.com/invite/ad7aMevNMx)
 
 Youtube :
-Antho_Off
+<a href="https://www.youtube.com/@Royale_Antho" target="_blank">Youtube</a>
