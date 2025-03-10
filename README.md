@@ -2,8 +2,6 @@
 ATTENTION ⚠️ | ANNONCE !
 Ce mod sera disponnible en 2025 et sera joué en LIVE avec les Royales pour le retour.
 
-Among Us mod qui corrige quelques bugs qui perturbent le jeu lors des tryhardings parmi nous. Ainsi que quelques paramètres utiles
-
 ## Caractères
 
 -  Les imposteurs ne se connaissent pas
