@@ -69,4 +69,4 @@ Discord :
 antho_off [Serveur](https://discord.com/invite/ad7aMevNMx)
 
 Youtube :
-<a href="https://www.youtube.com/@Royale_Antho" target="_blank">Youtube</a>
+<a href="https://www.youtube.com/@Royale_Antho" target="_blank">Antho_Off</a>
