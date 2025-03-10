@@ -21,7 +21,7 @@ Ce mod a été réalisé à l'aide du [framework de modding Reactor](https://git
 
 Tous les joueurs doivent avoir installé le mod pour la meilleure expérience utilisateur
 
--   Download the [lastest release]().
+-   Download the [lastest release](https://github.com/AnthoYt/AmongUsUnknownImpostors/releases).
 -   Extract the files into Among us game folder (`steam/steamapps/common/Among us`)
 -   This should look like this
     ![looklikethis](./Visuals/looklikethis.png)
