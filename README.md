@@ -57,8 +57,7 @@ Vous avez rencontré un bug ou un comportement inattendu ? Vous souhaitez propos
 
 AmongUsUnknownImpostors est sous licence MIT. Voir [LICENSE](LICENSE.md) pour la licence complète.
 
-Crédits à [@Galster](https://github.com/Galster-dev) et  pour les paramètres de lobby personnalisés
-Créadits à [@Herysia](https://github.com/Herysia) pour avoir mis en oevre le premier projet
+Crédits à [@Galster](https://github.com/Galster-dev) et  pour les paramètres de lobby personnalisés et à [@Herysia](https://github.com/Herysia) pour avoir mis en oevre le premier projet
 
 Bibliothèques tierces :
 
