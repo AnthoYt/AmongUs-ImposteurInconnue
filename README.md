@@ -20,11 +20,11 @@ Ce mod a été réalisé à l'aide du [framework de modding Reactor](https://git
 
 Tous les joueurs doivent avoir installé le mod pour la meilleure expérience utilisateur
 
--   Download the [lastest release](https://github.com/AnthoYt/AmongUsUnknownImpostors/releases).
--   Extract the files into Among us game folder (`steam/steamapps/common/Among us`)
--   This should look like this
+-   Téléchargez le [lastest release](https://github.com/AnthoYt/AmongUsUnknownImpostors/releases).
+-   Extraire les fichiers dans le dossier du jeu Among Us (`steam/steamapps/common/Among us`)
+-   Cela devrait ressembler à ceci
     ![looklikethis](./Visuals/looklikethis.png)
--   **Run the game from steam**
+-   **Exécutez le jeu depuis Steam**
 
 ### Remarque relative à l'installation
 
@@ -58,12 +58,9 @@ AmongUsUnknownImpostors est sous licence MIT. Voir [LICENSE](LICENSE.md) pour la
 
 Crédits à [@Galster](https://github.com/Galster-dev) et  pour les paramètres de lobby personnalisés et à [@Herysia](https://github.com/Herysia) pour avoir mis en oevre le premier projet
 
-Bibliothèques tierces :
-
--   [Reactor](https://github.com/NuclearPowered/Reactor) est sous licence LGPL v3.0. Voir [LICENSE](https://github.com/NuclearPowered/Reactor/blob/master/LICENSE) pour la licence complète.
--   [BepInEx (Reactor fork)](https://github.com/NuclearPowered/BepInEx)est sous licence LGPL 2.1. Voir [LICENSE](https://github.com/NuclearPowered/BepInEx/blob/master/LICENSE) pour la licence complète.
--   Unity Runtime les bibliothèques font partie du logiciel Unity.  
-    Leur utilisation est soumise à [Unity Terms of Service](https://unity3d.com/legal/terms-of-service),y compris [Unity Software Additional Terms](https://unity3d.com/legal/terms-of-service/software).
+# Bugs ou suggestions de fonctionnalités
+Pour obtenir une aide générale sur les problèmes, les suggestions de fonctionnalités ou les bugs, rejoignez le <a href="https://discord.com/invite/ad7aMevNMx" target="_blank">Discord</a>
+Ou réaliser un [Ticket](https://github.com/AnthoYt/Royale-Us/issues/17)
 
 # Contact
 Discord :
