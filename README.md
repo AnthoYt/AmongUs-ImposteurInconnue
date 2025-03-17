@@ -34,7 +34,7 @@ Si vous souhaitez jouer sur des serveurs officiels, vous devez alors désactiver
 
 ### Désinstaller
 
-Si vous souhaitez désinstaller uniquement ce mod, supprimez la dll `Among us/BepInEx/plugins/AmongUsUnknownImpostors-2020.12.9s.dll`.
+Si vous souhaitez désinstaller uniquement ce mod, supprimez la dll `Among us/BepInEx/plugins/AmongUsUnknownImpostors.dll`.
 
 Si vous souhaitez le désactiver, vous pouvez renommer ou supprimer temporairement le fichier `Among us/winhttp.dll` ou désinstaller le jeu pour le réinstaller dans le mod.
 
