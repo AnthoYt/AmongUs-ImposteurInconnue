@@ -15,7 +15,6 @@ Il sera bientôt disponnible en 2025.
 ## Technique
 
 Ce mod a été réalisé à l'aide du [framework de modding Reactor](https://github.com/NuclearPowered/Reactor), basé sur BepInEx, il corrige le jeu au moment de l'exécution et **NE** modifie aucun fichier de jeu.
--   Support Among us v 2024.3.5s (Steam only)
 
 ### Installation
 
