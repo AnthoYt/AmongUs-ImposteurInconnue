@@ -50,17 +50,15 @@ Si vous souhaitez désinstaller complètement Reactor/BepInEx, supprimez les fic
 
 # Contribution
 
-Vous avez rencontré un bug ou un comportement inattendu ? Vous souhaitez proposer ou ajouter une nouvelle fonctionnalité ? Créez un [Problème](https://github.com/AnthoYt/Royale-Us/issues) !
+Vous avez rencontré un bug ou un comportement inattendu ? Vous souhaitez proposer ou ajouter une nouvelle fonctionnalité ?
+Pour obtenir une aide générale sur les problèmes, les suggestions de fonctionnalités ou les bugs, rejoignez le <a href="https://discord.com/invite/ad7aMevNMx" target="_blank">Discord</a>
+Ou réaliser un [Ticket](https://github.com/AnthoYt/Royale-Us/issues/17)
 
 # Licences et crédits
 
 AmongUsUnknownImpostors est sous licence MIT. Voir [LICENSE](LICENSE.md) pour la licence complète.
 
 Crédits à [@Galster](https://github.com/Galster-dev) et  pour les paramètres de lobby personnalisés et à [@Herysia](https://github.com/Herysia) pour avoir mis en oevre le premier projet
-
-# Bugs ou suggestions de fonctionnalités
-Pour obtenir une aide générale sur les problèmes, les suggestions de fonctionnalités ou les bugs, rejoignez le <a href="https://discord.com/invite/ad7aMevNMx" target="_blank">Discord</a>
-Ou réaliser un [Ticket](https://github.com/AnthoYt/Royale-Us/issues/17)
 
 # Contact
 Discord :
