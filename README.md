@@ -58,7 +58,7 @@ Ou réaliser un [Ticket](https://github.com/AnthoYt/Royale-Us/issues/17)
 
 AmongUsUnknownImpostors est sous licence MIT. Voir [LICENSE](LICENSE.md) pour la licence complète.
 
-Crédits à [@Galster](https://github.com/Galster-dev) et  pour les paramètres de lobby personnalisés et à [@Herysia](https://github.com/Herysia) pour avoir mis en oevre le premier projet
+Crédits à [@Galster](https://github.com/Galster-dev) pour les paramètres de lobby personnalisés et à [@Herysia](https://github.com/Herysia) pour avoir mis en oevre le premier projet
 
 # Contact
 Discord :
