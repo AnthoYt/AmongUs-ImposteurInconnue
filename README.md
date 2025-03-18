@@ -1,4 +1,4 @@
-# AmongUsUnknownImpostors
+# Among Us Imposteur Inconnue
 ATTENTION ⚠️ | ANNONCE !
 Il sera bientôt disponnible en 2025.
 
