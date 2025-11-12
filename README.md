@@ -1,6 +1,5 @@
 # Among Us Imposteur Inconnue
 ATTENTION ⚠️ | ANNONCE !
-Il sera bientôt disponnible en 2025.
 
 ![images](https://github.com/user-attachments/assets/0f10a1f2-4b4b-4ba3-aa56-2219a4041d5f)
 
