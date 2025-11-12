@@ -34,7 +34,7 @@ namespace AmongUsUnknownImpostors.Patches
                 "\n",
                 "AmongUsUnknownImpostors",
                 " v1.2.1",
-                " by Herysia#4293"
+                " by Antho_Off"
             });
         }
 
