@@ -2,25 +2,25 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Version>1.2.1</Version>
-    <GameVersion>2024.3.5.s</GameVersion>
-    <Mappings>NuclearPowered/Mappings:0.1.0</Mappings>
+    <GameVersion>2025.5.20</GameVersion>
+    <Mappings>NuclearPowered/Mappings:0.5.0</Mappings>
 
-    <Description>Among us mod that hides the impostors and allows them to kill each other</Description>
+    <Description>Among Us mod that hides the impostors and allows them to kill each other</Description>
     <Authors>Herysia</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <!-- Path to Reactor DLL for deobfuscation -->
     <Deobfuscate Include="$(AmongUs)\BepInEx\plugins\Reactor-$(GameVersion).dll" />
-    
-    <!-- Reactor Oxygen Filter MSBuild package -->
-    <PackageReference Include="Reactor.OxygenFilter.MSBuild" Version="2.2.0" />
+
+    <!-- Updated Reactor Oxygen Filter MSBuild package -->
+    <PackageReference Include="Reactor.OxygenFilter.MSBuild" Version="2.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Reference to the LobbyOptionsAPI DLL with custom hint path -->
+    <!-- Reference to the updated LobbyOptionsAPI DLL -->
     <Reference Include="LobbyOptionsAPI">
-      <HintPath>..\..\LobbyOptionsAPI\LobbyOptionsAPI\bin\Release\netstandard2.1\reobfuscated\LobbyOptionsAPI-2020.12.9s.dll</HintPath>
+      <HintPath>..\..\LobbyOptionsAPI\LobbyOptionsAPI\bin\Release\netstandard2.1\reobfuscated\LobbyOptionsAPI-2025.5.20.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -28,5 +28,4 @@
     <!-- Copy the reobfuscated assembly to the BepInEx plugins folder -->
     <Copy SourceFiles="$(OutputPath)reobfuscated/$(AssemblyName)-$(GameVersion).dll" DestinationFolder="$(AmongUs)/BepInEx/plugins/" />
   </Target>
-
 </Project>
