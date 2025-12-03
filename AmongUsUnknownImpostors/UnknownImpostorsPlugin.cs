@@ -7,32 +7,33 @@ using Reactor;
 
 namespace AmongUsUnknownImpostors
 {
-    [BepInPlugin(Id, "Among Us Unknown Impostors", "1.0.0")]
+    [BepInPlugin(Id, "Among Us Unknown Impostors", PluginVersion)]
     [BepInProcess("Among Us.exe")]
-    [BepInDependency(ReactorPlugin.Id)]
+    [BepInDependency(ReactorPlugin.Id, BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.herysia.LobbyOptionsAPI")]
     public class UnknownImpostorsPlugin : BasePlugin
     {
         // Plugin ID constant
         public const string Id = "com.herysia.amongusunkimpostor";
 
-        // RPC Settings ID constant
-        public static byte RpcSettingsId = 70;
+        // Version du plugin (sync avec ton .csproj)
+        public const string PluginVersion = "1.3.0";
+
+        // RPC Settings ID (changé pour éviter les conflits)
+        public static byte RpcSettingsId = 200;
 
         // Harmony instance for patching methods
-        public Harmony Harmony { get; } = new Harmony(Id);
+        public static Harmony Harmony = new Harmony(Id);
 
-        // Load method called when the plugin is loaded
         public override void Load()
         {
             // Initialize custom game options
             CustomGameOptionsData.customGameOptions = new CustomGameOptionsData();
 
-            // Apply patches using Harmony
+            // Apply patches
             Harmony.PatchAll();
 
-            // Optionally, you can add more log outputs or initialization processes
-            Logger.LogInfo($"Plugin {Id} loaded successfully.");
+            Logger.LogInfo($"Plugin {Id} v{PluginVersion} loaded successfully.");
         }
     }
 }
