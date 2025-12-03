@@ -1,31 +1,39 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Version>1.2.1</Version>
-    <GameVersion>2025.5.20</GameVersion>
-    <Mappings>NuclearPowered/Mappings:0.5.0</Mappings>
+
+    <!-- Version du mod -->
+    <Version>1.3.0</Version>
+
+    <!-- Version actuelle du jeu (mise à jour 2025.6.x) -->
+    <GameVersion>2025.6.12</GameVersion>
+
+    <!-- Dernière version stable des mappings Reactor/NuclearPowered -->
+    <Mappings>NuclearPowered/Mappings:0.6.3</Mappings>
 
     <Description>Among Us mod that hides the impostors and allows them to kill each other</Description>
     <Authors>Herysia</Authors>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Path to Reactor DLL for deobfuscation -->
+    <!-- Reactor pour la déobfuscation -->
     <Deobfuscate Include="$(AmongUs)\BepInEx\plugins\Reactor-$(GameVersion).dll" />
 
-    <!-- Updated Reactor Oxygen Filter MSBuild package -->
-    <PackageReference Include="Reactor.OxygenFilter.MSBuild" Version="2.5.0" />
+    <!-- OxygenFilter MSBuild : dernière version compatible 2025 -->
+    <PackageReference Include="Reactor.OxygenFilter.MSBuild" Version="2.7.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Reference to the updated LobbyOptionsAPI DLL -->
+    <!-- Dernière version du LobbyOptionsAPI compilée pour la mise à jour 2025.6.x -->
     <Reference Include="LobbyOptionsAPI">
-      <HintPath>..\..\LobbyOptionsAPI\LobbyOptionsAPI\bin\Release\netstandard2.1\reobfuscated\LobbyOptionsAPI-2025.5.20.dll</HintPath>
+      <HintPath>..\..\LobbyOptionsAPI\LobbyOptionsAPI\bin\Release\netstandard2.1\reobfuscated\LobbyOptionsAPI-2025.6.12.dll</HintPath>
     </Reference>
   </ItemGroup>
 
   <Target Name="Copy" AfterTargets="Reobfuscate">
-    <!-- Copy the reobfuscated assembly to the BepInEx plugins folder -->
-    <Copy SourceFiles="$(OutputPath)reobfuscated/$(AssemblyName)-$(GameVersion).dll" DestinationFolder="$(AmongUs)/BepInEx/plugins/" />
+    <!-- Copie du mod reobfusqué dans le dossier plugins -->
+    <Copy 
+      SourceFiles="$(OutputPath)reobfuscated/$(AssemblyName)-$(GameVersion).dll" 
+      DestinationFolder="$(AmongUs)/BepInEx/plugins/" />
   </Target>
 </Project>
